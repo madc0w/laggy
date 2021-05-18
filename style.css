@@ -1,0 +1,36 @@
+body {
+	font-family: Lato;
+}
+
+#game-container {
+	margin: 22px;
+}
+
+#options-container {
+	margin: 8px;
+}
+
+
+#options-container #options div {
+	padding: 12px;
+	cursor: pointer;
+	width: 200px;
+	text-align: center;
+}
+
+#options-container #options div:hover {
+	background-color: #dd0;
+}
+
+#image-container img {
+	height: 400px;
+	position: relative;
+}
+
+#mask {
+	z-index: 1;
+	background-color: #fff;
+	height: 400px;
+	width: 100%;
+	position: absolute;
+}
