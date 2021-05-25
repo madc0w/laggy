@@ -5,6 +5,7 @@ data = [
 			'She-Ra',
 			'Jake the Dog',
 			'Bill Cipher',
+			'Seahawk',
 		]
 	},
 	{
@@ -13,6 +14,7 @@ data = [
 			'Jesper',
 			'Kaz',
 			'Bill Cipher',
+			'She-Ra',
 		]
 	},
 	{
@@ -21,6 +23,7 @@ data = [
 			'Kaz',
 			'Jesper',
 			'Bill Cipher',
+			'She-Ra',
 		]
 	},
 	{
@@ -29,6 +32,7 @@ data = [
 			'Inej',
 			'Jake the Dog',
 			'Bill Cipher',
+			'Bob Ross',
 		]
 	},
 	{
@@ -42,6 +46,16 @@ data = [
 	{
 		filename: 'Bill Cipher.jpg',
 		options: [
+			'Bill Cipher',
+			'Seahawk',
+			'She-Ra',
+			'Bob Ross',
+		]
+	},
+	{
+		filename: 'Bob_Ross.jpg',
+		options: [
+			'Bob Ross',
 			'Bill Cipher',
 			'Seahawk',
 			'She-Ra',

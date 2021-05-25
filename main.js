@@ -34,6 +34,9 @@ function showImage() {
 	intervalId = setInterval(() => {
 		mask.style = `top: ${initMaskTop + image.height - maskHeight}px; height: ${maskHeight}px;`;
 		maskHeight--;
+		if (maskHeight <= 0) {
+			clearInterval(intervalId);
+		}
 	}, 60);
 }
 
